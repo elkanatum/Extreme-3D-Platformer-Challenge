@@ -1,0 +1,20 @@
+[package]
+name = "platformer_3d"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = { version = "0.12", features = ["dynamic_linking"] }
+bevy_rapier3d = { version = "0.23", features = ["simd-stable"] }
+
+# Optional: For better performance in release builds
+[profile.dev]
+opt-level = 1
+
+[profile.dev.package."*"]
+opt-level = 3
+
+# Fast compile times for development
+[profile.release]
+lto = true
+codegen-units = 1

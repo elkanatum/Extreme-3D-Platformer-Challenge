@@ -1,0 +1,8 @@
+.vs/
+target/
+*.log
+*.tmp
+*.exe
+*.obj
+*.dll
+
