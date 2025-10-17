@@ -29,7 +29,7 @@ A physics-based 3D platformer built with Rust and Bevy, featuring exponential di
 ### Run
 ```bash
 # Clone repository
-git clone https://github.com/elkanatum/extreme-3d-platformer.git
+git clone https://github.com/elkanatum/Extreme-3D-Platformer-Challenge.git
 cd extreme-3d-platformer
 
 # Run (release mode recommended)
